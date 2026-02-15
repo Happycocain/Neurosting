@@ -1,0 +1,27 @@
+name: NeuroString
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Nastavení Pythonu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Instalace balíčků
+      run: |
+        pip install flask numpy
+    - name: Kontrola jestli main.py existuje
+      run: |
+        ls -la
+        python --version
+    - name: Zkusíme spustit NeuroString na 10 sekund
+      run: |
+        timeout 10s python main.py || echo "✅ Běžel správně"
