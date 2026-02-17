@@ -4,22 +4,24 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.8+-yellow)
 
-**První decentralizovaná síť, která myslí**
+Here you go — clean, natural English, no weird literal translation:
 
-NeuroString kombinuje neuronové sítě, kvantovou fyziku a teorii strun do samo-organizující se alternativy k blockchainu.
+⸻
 
-## ✨ Vlastnosti
+The First Decentralized Network That Thinks
 
-- 🧠 **Neuronová architektura** – Uzly se chovají jako biologické neurony
-- ⚛️ **Kvantový konsenzus** – Okamžitá validace bez těžby
-- 🌌 **11D paměť** – Data jako vibrační vzory
-- 🔄 **Samo-učení** – Síť se zlepšuje používáním
+NeuroString combines neural networks, quantum physics, and string theory into a self-organizing alternative to blockchain.
 
-## 🚀 Rychlý start
+✨ Features
+	•	🧠 Neural Architecture – Nodes behave like biological neurons
+	•	⚛️ Quantum Consensus – Instant validation without mining
+	•	🌌 11D Memory – Data stored as vibrational patterns
+	•	🔄 Self-Learning – The network improves through usage
 
-```bash
-# Instalace
+🚀 Quick Start
+
+# Installation
 pip install -r requirements.txt
 
-# Spuštění
+# Run
 python main.py
