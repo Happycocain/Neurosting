@@ -87,7 +87,7 @@ NeuroString is an experimental decentralized network that combines neural networ
 ### Running the Application
 
 ```bash
-# Install dependencies
+# Install dependencies (note: file is named "Requirements" not "requirements.txt")
 pip install -r Requirements
 
 # Run the application
