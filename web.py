@@ -344,7 +344,7 @@ def api_transaction():
         # Simulace
         return jsonify({
             'success': True,
-            'message': f'✅ Transakce zpracována | Otisk: {hash(data)[:10]}'
+            'message': f'✅ Transakce zpracována | Otisk: {str(hash(data))[:10]}'
         })
 
 @app.route('/api/add_node', methods=['POST'])
