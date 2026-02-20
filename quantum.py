@@ -5,6 +5,7 @@ NeuroString – Kvantové simulace (zjednodušené pro Replit)
 
 import random
 import math
+import cmath
 import numpy as np
 
 class QuantumSimulator:
@@ -73,7 +74,7 @@ class QuantumSimulator:
         # Aplikuj "kvantovou" transformaci
         frequencies = []
         for i, val in enumerate(data):
-            freq = val * math.exp(2j * math.pi * i / len(data))
+            freq = val * cmath.exp(2j * math.pi * i / len(data))
             frequencies.append(abs(freq))
         
         return frequencies
